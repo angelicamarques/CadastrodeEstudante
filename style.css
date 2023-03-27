@@ -44,3 +44,38 @@ h1{
 .span-required{
     display: none;
 }
+
+.inputs{
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: var(--color-dark1);
+    border: 2px solid var(--color-dark1);
+    color: var(--color-white);
+    width: 100%;
+    box-sizing: border border-box;
+}
+
+.inputs:focus{
+    border-color: #9333FF;
+}
+
+.box-select{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: var(--color-purple1);
+    color: var(--color-white);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(130, 8, 201);
+}
